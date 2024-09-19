@@ -1,0 +1,90 @@
+ets ���2: SPI Speed      : 40MHz[0m
+[0;32m�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (30) boot: ESP-IDF v5.3.1 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Sep 18 2024 11:16:03[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ad14h ( 44308) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0001ad3c vaddr=3ffb0000 size=02478h (  9336) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001d1bc vaddr=40080000 size=02e5ch ( 11868) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16154h ( 90452) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=0003617c vaddr=40082e5c size=0b594h ( 46484) load[0m
+[0;32mI (190) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (190) boot: Disabling RNG early entropy source...[0m
+[0;32mI (202) cpu_start: Multicore app[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) app_init: Application information:[0m
+[0;32mI (213) app_init: Project name:     main[0m
+[0;32mI (217) app_init: App version:      1[0m
+[0;32mI (222) app_init: Compile time:     Sep 18 2024 11:15:43[0m
+[0;32mI (228) app_init: ELF file SHA256:  927a45c2f...[0m
+[0;32mI (233) app_init: ESP-IDF:          v5.3.1[0m
+[0;32mI (238) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (243) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (248) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (253) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (260) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (266) heap_init: At 3FFB2D70 len 0002D290 (180 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 4008E3F0 len 00011C10 (71 KiB): IRAM[0m
+[0;32mI (292) spi_flash: detected chip: generic[0m
+[0;32mI (296) spi_flash: flash io: dio[0m
+[0;33mW (299) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+[0;32mI (1323) VSPI: WHOAMI : 0x6B[0m
+Being written: 0x0512
+Being written: 0xE218
+Being written: 0x9010
+[0;32mI (1383) VSPI: WHO AM I: 0x6B[0m
+[0;32mI (1383) VSPI: CTRL1: 0x90[0m
+[0;32mI (1473) VSPI: X: 16.23 Y: 4.03 Z: -0.98[0m
+[0;32mI (2513) VSPI: X: 11.22 Y: 8.11 Z: 3.96[0m
+[0;32mI (3553) VSPI: X: -4.15 Y: 8.05 Z: 1.83[0m
+[0;32mI (4593) VSPI: X: 11.89 Y: 4.64 Z: 4.64[0m
+[0;32mI (5633) VSPI: X: 9.21 Y: 6.04 Z: 4.51[0m
+[0;32mI (6673) VSPI: X: -4.94 Y: 10.19 Z: 2.68[0m
+[0;32mI (7713) VSPI: X: -5.86 Y: 9.58 Z: 21.29[0m
+[0;32mI (8753) VSPI: X: -2.93 Y: 11.59 Z: 4.88[0m
+[0;32mI (9793) VSPI: X: -5.06 Y: 10.80 Z: 2.62[0m
+[0;32mI (10833) VSPI: X: -5.18 Y: 5.12 Z: 4.27[0m
+[0;32mI (11873) VSPI: X: 8.54 Y: 9.15 Z: 21.11[0m
+[0;32mI (12913) VSPI: X: 7.38 Y: 16.77 Z: -6.95[0m
+[0;32mI (13953) VSPI: X: 22.33 Y: 7.20 Z: 9.39[0m
+[0;32mI (14993) VSPI: X: 6.10 Y: 7.14 Z: 8.30[0m
+[0;32mI (16033) VSPI: X: 6.34 Y: 10.37 Z: 7.01[0m
+[0;32mI (17073) VSPI: X: 4.51 Y: 11.83 Z: -1.77[0m
+[0;32mI (18113) VSPI: X: 8.85 Y: 5.00 Z: -5.67[0m
+[0;32mI (19153) VSPI: X: 6.95 Y: 11.35 Z: -3.17[0m
+[0;32mI (20193) VSPI: X: -4.51 Y: 7.99 Z: 6.95[0m
+[0;32mI (21233) VSPI: X: 11.29 Y: 2.01 Z: 7.62[0m
+[0;32mI (22273) VSPI: X: 4.94 Y: 15.01 Z: 5.18[0m
+[0;32mI (23313) VSPI: X: -29.95 Y: 37.70 Z: -2.20[0m
+[0;32mI (24353) VSPI: X: 115.29 Y: 75.94 Z: 37.45[0m
+[0;32mI (25393) VSPI: X: -28.49 Y: 35.20 Z: -1.46[0m
+[0;32mI (26433) VSPI: X: -32.88 Y: 73.63 Z: 12.02[0m
+[0;32mI (27473) VSPI: X: -31.11 Y: 39.77 Z: 22.33[0m
+[0;32mI (28513) VSPI: X: -8.36 Y: 35.38 Z: 2.20[0m

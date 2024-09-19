@@ -1,0 +1,173 @@
+�A%�Speed      : 40MHz[0m
+�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (30) boot: ESP-IDF v5.3.1 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Sep 18 2024 11:16:03[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0acfch ( 44284) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0001ad24 vaddr=3ffb0000 size=02478h (  9336) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001d1a4 vaddr=40080000 size=02e74h ( 11892) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1627ch ( 90748) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=000362a4 vaddr=40082e74 size=0b57ch ( 46460) load[0m
+[0;32mI (190) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (190) boot: Disabling RNG early entropy source...[0m
+[0;32mI (202) cpu_start: Multicore app[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) app_init: Application information:[0m
+[0;32mI (213) app_init: Project name:     main[0m
+[0;32mI (218) app_init: App version:      1[0m
+[0;32mI (222) app_init: Compile time:     Sep 18 2024 19:39:57[0m
+[0;32mI (228) app_init: ELF file SHA256:  92c3ad388...[0m
+[0;32mI (233) app_init: ESP-IDF:          v5.3.1[0m
+[0;32mI (238) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (243) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (248) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (253) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (260) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (266) heap_init: At 3FFB2DF0 len 0002D210 (180 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 4008E3F0 len 00011C10 (71 KiB): IRAM[0m
+[0;32mI (292) spi_flash: detected chip: generic[0m
+[0;32mI (296) spi_flash: flash io: dio[0m
+[0;33mW (300) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+[0;32mI (1323) VSPI: WHOAMI : 0x6B[0m
+Being written: 0x0512
+Being written: 0xE218
+Being written: 0x9010
+[0;32mI (1383) VSPI: WHO AM I: 0x6B[0m
+[0;32mI (1383) VSPI: CTRL1: 0x90[0m
+>>>11253 8867 8135
+Crash Detected!
+>>>22580 17410 16232
+Crash Detected!
+>>>33599 26204 24286
+Crash Detected!
+>>>44859 35066 32400
+Crash Detected!
+>>>55913 43898 40490
+Crash Detected!
+>>>1653 52645 48585
+Crash Detected!
+>>>12908 61435 56611
+Crash Detected!
+>>>24203 4650 64677
+Crash Detected!
+>>>35231 13454 7224
+Crash Detected!
+>>>46441 22196 15280
+Crash Detected!
+>>>57719 30990 23418
+Crash Detected!
+>>>3494 39815 31534
+Crash Detected!
+>>>14997 48634 39578
+Crash Detected!
+>>>26357 57387 47636
+Crash Detected!
+>>>37586 698 55717
+Crash Detected!
+>>>48904 9523 63852
+Crash Detected!
+>>>60202 18079 6452
+Crash Detected!
+>>>5932 26873 14538
+Crash Detected!
+>>>17236 35702 22595
+Crash Detected!
+>>>28745 44515 30687
+Crash Detected!
+>>>28756 44437 30710
+Crash Detected!
+>>>28712 44673 30743
+Crash Detected!
+>>>28987 44701 30783
+Crash Detected!
+>>>28764 44654 30822
+Crash Detected!
+>>>28983 44637 30863
+Crash Detected!
+>>>28809 44677 30853
+Crash Detected!
+>>>28836 44604 30919
+Crash Detected!
+>>>28895 44681 30912
+Crash Detected!
+>>>28883 44698 30970
+Crash Detected!
+>>>28983 44796 30979
+Crash Detected!
+>>>29015 44805 30896
+Crash Detected!
+>>>29004 44701 30886
+Crash Detected!
+>>>29019 44704 30898
+Crash Detected!
+>>>29005 44733 30971
+Crash Detected!
+>>>29053 44727 31005
+Crash Detected!
+>>>29077 44652 30929
+Crash Detected!
+>>>29053 44933 30847
+Crash Detected!
+>>>29124 44846 30857
+Crash Detected!
+>>>29308 44762 30898
+Crash Detected!
+>>>29058 44707 30826
+Crash Detected!
+>>>29073 44866 30756
+Crash Detected!
+>>>29110 44872 30758
+Crash Detected!
+>>>29140 44869 30716
+Crash Detected!
+>>>29445 44838 30726
+Crash Detected!
+>>>29528 44823 30737
+Crash Detected!
+>>>29494 44541 30812
+Crash Detected!
+>>>29587 44557 30883
+Crash Detected!
+>>>29516 44500 30926
+Crash Detected!
+>>>29512 44354 30847
+Crash Detected!
+>>>29548 44410 30740
+Crash Detected!
+>>>29739 44516 30627
+Crash Detected!
+>>>29703 44595 30582
+Crash Detected!
+>>>29471 44579 30621
+Crash Detected!
+>>>29348 44289 30491
+Crash Detected!
+>>>29786 43966 31011
+Crash Detected!

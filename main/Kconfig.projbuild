@@ -1,0 +1,11 @@
+# put here your custom config value
+menu "Crash Detection"
+config THRESHOLD_XL
+    int "Threshold for accelration"
+    default 5000
+    help
+    Set the acceleration in terms of int16 numbers before multiplication
+config RINGBUFFER_LEN
+    int "Buffer size for ringbuffer to store acc"
+    default 20
+endmenu
